@@ -1,6 +1,6 @@
 resource "aws_elb" "bar" {
   name                      = "pooja-terraform-elb"
-  availability_zones        = ["ap-southeast-2",]
+  availability_zones        = ["ap-southeast-2a","ap-southeast-2b"]
 
   listener {
     instance_port          = 80
