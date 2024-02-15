@@ -1,11 +1,11 @@
 provider "aws" {
 region = "ap-southeast-2"
-access_key = " AKIAUH5AW5XTRL2LS2S2"
-secret_key = " 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"
+#access_key = "AKIAUH5AW5XTRL2LS2S2"
+#secret_key = "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"
 }
 
 resource "aws_instance" "one" {
-ami = " ami-02eec49345a878486"
+ami = "ami-02eec49345a878486"
 instance_type = "t2.large"
    key_name = "yummy"
    vpc_security_group_ids = [aws_security_group.bar.id]
