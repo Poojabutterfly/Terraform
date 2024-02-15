@@ -19,7 +19,7 @@ sudo chkconfig httpd on
 sudo echo "Hai All This is My Zomato-1 Web-Application Created by Terraform Infrastructute By Java Home Cloud Server-1" > /var/www/html/index.html
 EOF
 tags = {
-Name = "Zomato-1"
+Name = "Zomato-2"
 }
 }
 
