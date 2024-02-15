@@ -9,7 +9,7 @@ ami = "ami-02eec49345a878486"
 instance_type = "t2.large"
    key_name = "yummy"
    vpc_security_group_ids = [aws_security_group.bar.id]
-   availability_zone = "ap-southeast-2"
+   availability_zone = "ap-southeast-2a"
    user_data = <<EOF
 #!/bin/bash
 sudo yum update -y
@@ -28,7 +28,7 @@ ami = "ami-02eec49345a878486"
 instance_type = "t2.large"
    key_name = "yummy"
    vpc_security_group_ids = [aws_security_group.bar.id]
-   availability_zone = "ap-southeast-2"
+   availability_zone = "ap-southeast-2b"
    user_data = <<EOF
 #!/bin/bash
 sudo yum update -y
